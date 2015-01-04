@@ -1,0 +1,228 @@
+#wrap {
+	background-color: #250000;
+}
+
+.controls {
+	text-align: center;
+}
+.controls>ul>li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.controls>ul>li.filter {
+	cursor: pointer;
+	background-color: #bbb;
+	padding: 5px 10px;
+	margin: 0 5px 10px;
+	text-transform: uppercase;
+	
+}
+
+.controls>ul>li.active {
+	background-color: #ba6;
+	color: #fff;
+} 
+
+.controls>ul>li:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.controls>ul>li.active:hover {
+	background-color: #873;
+	color: #fff;
+}
+
+.link-span {
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+
+	/* edit: added z-index */
+	z-index: 200;
+}
+
+#Grid {
+	font-size: 0;
+}
+
+#Grid .mix {
+	display: none;
+	opacity: 0;
+	position: relative;
+	width: 300px;
+	margin: 0 10px 50px;
+	padding: 0;
+}
+
+#Grid .mix p {
+	/*font-size: 16px;*/
+}
+
+.picture-item__details {
+	display: block;
+	position: absolute;
+	opacity: 0;
+	bottom: -28%;
+	left: 0;
+	width: 96%;
+	height: 28%;
+	padding: 2%;
+	z-index: 100;
+	background-color: #500;
+	color: #fff;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+}
+
+.picture-item__title {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.picture-item__tags {
+	font-size: 14px;
+	color: #aff;
+}
+
+
+div.mix {
+	cursor: pointer;
+	overflow: hidden;
+}
+
+div.mix div.img {
+	opacity: 1.0;
+}
+
+div.mix:hover > .picture-item__details {
+	bottom: 0;
+	opacity: 0.8;
+}
+
+div.mix:hover div.img {
+	opacity: 1.0;
+}
+
+@-webkit-keyframes slide {
+	from { 
+		background-position: 50% 50%;
+	}
+	33% {
+		background-position: 15% 15%;	
+	}
+	to {
+		background-position: 85% 85%; 
+	}	
+}
+
+@keyframes slide {
+	from { 
+		background-position: 50% 50%;
+	}
+	33% {
+		background-position: 15% 15%;	
+	}
+	to {
+		background-position: 85% 85%; 
+	}
+}
+
+div.mix:hover div.img {
+	-webkit-animation: slide 16s linear infinite alternate;
+	animation: slide 16s linear infinite alternate;
+}
+
+.hexagon {
+	width: 300px;
+	height: 262px;
+	display: inline-block;
+	position: relative;
+	-webkit-transform: rotate(120deg);
+	-moz-transform: rotate(120deg);
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.hexagon-in {
+	overflow:hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.hexagon .img {
+
+	width: 100%;
+	height: 100%;
+	background-color: #250000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 200%;
+	visibility: visible;
+	-webkit-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-webkit-backface-visibility: hidden;
+}
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#Grid .mix {
+		width: 364px;
+	}
+
+	.hexagon {
+		width: 364px;
+		height: 318px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	.hexagon {
+		width: 280px;
+		height: 245px;
+	}
+	#Grid .mix {
+		width: 280px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	#Grid .mix {
+		width: 400px;
+	}
+	.hexagon {
+		width: 400px;
+		height: 350px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	.hexagon {
+		width: 330px;
+		height: 288px;
+	}
+	#Grid .mix {
+		width: 330px;
+	}
+}
+@media only screen and (max-width: 359px) {
+	.hexagon {
+		width: 260px;
+		height: 228px;
+	}
+	#Grid .mix {
+		width: 260px;
+	}
+}
