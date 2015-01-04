@@ -1,0 +1,29 @@
+---
+layout: default
+css:
+ - path: projectitem.css
+---
+
+<div class="btn">
+    <a class="backBtn" href="{{ site.baseurl }}/projects/"> ◀ project list</a>
+</div>
+<div class="tile width_two height_two alpha">
+    <div class="description">
+        <p class="projectTitle">{{ page.title }}</p>
+        {% for sub in page.subs %}
+        <p class="sub">{{ sub.content }}</p>
+        {% endfor %}
+        <p class=title2>OVERVIEW</p>
+        {{ content }}
+    </div>
+</div>
+{% for content in page.contents %}
+    {% if content.type == "img" %}
+    <div class="tile {{ content.class }} image" style="background-image: url('{{ site.baseurl }}/assets/img/projects/{{ page.img_folder }}/{{ content.path }} ');"></div>
+    {% else %}
+    <div class="tile width_four height_auto alpha omega">
+        <img class="ratio" src="{{ site.baseurl }}/assets/img/projects/16x9.gif" />
+        <iframe src="{{ content.path }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+{% endfor %}
