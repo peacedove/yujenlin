@@ -15,7 +15,7 @@ css:
             <div class="four columns omega no-margin">
                 <div class="row">
                     <div class="resume-download-btn">
-                        <a href="static/resources/resume/yujen_lin_resume_2013.pdf" target="_blank">Download PDF</a>
+                        <a href="#" target="_blank">Download PDF</a>
                     </div>
                 </div>
                 <div class="row">
@@ -133,7 +133,7 @@ css:
                 <div class="offset-by-one ten columns omega no-margin">
                     <div class="row">
                         <div class="one resume-item">
-                            <a class="resume-link clearfix" href="#WiP"><span class="link-span"></span></a>
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}{% post_url 2014-10-20-whisper_of_the_heart %}"><span class="link-span"></span></a>
                             <div class="resume-item-detail">
                                 <p class="resume-item-name">Whisper of the Hear•t</p>
                                 <p class="resume-item-des resume-job-title">MSI at UMSI</p>
@@ -174,7 +174,7 @@ css:
                     </div>
                     <div class="row">
                         <div class="one resume-item">
-                            <a class="resume-link clearfix" href="/projects/stacknshake"><span class="link-span"></span></a>
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}{% post_url 2013-11-30-stacknshake %}"><span class="link-span"></span></a>
                             <div class="resume-item-detail">
                                 <p class="resume-item-name">Stack'n'Shake</p>
                                 <p class="resume-item-des resume-job-title">MSI at UMSI</p>
@@ -215,7 +215,7 @@ css:
                     </div>
                     <div class="row">
                         <div class="one resume-item">
-                            <a class="resume-link clearfix" href="/projects/dream2"><span class="link-span"></span></a>
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}{% post_url 2013-08-01-a_dream_journey_in_taipei%}"><span class="link-span"></span></a>
                             <div class="resume-item-detail">
                                 <p class="resume-item-name">A Dream Journey In Taipei</p>
                                 <p class="resume-item-des resume-job-title">Software Engineer at Techart Group</p>
@@ -266,7 +266,7 @@ css:
                     </div>
                     <div class="row">
                         <div class="one resume-item">
-                            <a class="resume-link clearfix" href="/projects/win8"><span class="link-span"></span></a>
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}{% post_url 2012-11-30-windows8_reimagined %}"><span class="link-span"></span></a>
                             <div class="resume-item-detail">
                                 <p class="resume-item-name">Microsoft Windows Reimagined</p>
                                 <p class="resume-item-des resume-job-title">Software Engineer at Techart Group</p>
@@ -299,58 +299,6 @@ css:
                                     <div class="ninehalf columns omega no-margin resume-bullet-content">
                                         <p class="resume-item-des">
                                             Created a playable and fun environment to demonstrate the new Win8 UI and features to visitors.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="one resume-item">
-                            <a class="resume-link clearfix" href="/projects/lecturebooks"><span class="link-span"></span></a>
-                            <div class="resume-item-detail">
-                                <p class="resume-item-name">LectureBooks Usability Evaluation &amp; Redesign</p>
-                                <p class="resume-item-des resume-job-title">MSI at UMSI</p>
-                                <p class="resume-item-des">Ann Arbor, Winter 2012</p>
-                                <br />
-                                <div class="row">
-                                    <div class="half column resume-bullet">
-                                        <p>•</p>
-                                    </div>
-                                    <div class="ninehalf columns omega no-margin resume-bullet-content">
-                                        <p class="resume-item-des border-bottom">
-                                            Applied the usability research methods to analyze the user’s real needs and their capabilities.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="half column resume-bullet">
-                                        <p>•</p>
-                                    </div>
-                                    <div class="ninehalf columns omega no-margin resume-bullet-content">
-                                        <p class="resume-item-des">
-                                            Gave our client suggestion to improve the system for interaction between the students and the LectureBooks site and redesigned the user interface of the website.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="one resume-item">
-                            <a class="resume-link clearfix" href="/projects/sgraffi"><span class="link-span"></span></a>
-                            <div class="resume-item-detail">
-                                <p class="resume-item-name">Sgraffi (iOS app)</p>
-                                <p class="resume-item-des resume-job-title">MSI at UMSI</p>
-                                <p class="resume-item-des">Ann Arbor, Winter 2012</p>
-                                <br />
-                                <div class="row">
-                                    <div class="half column resume-bullet">
-                                        <p>•</p>
-                                    </div>
-                                    <div class="ninehalf columns omega no-margin resume-bullet-content">
-                                        <p class="resume-item-des">
-                                            Designed and built an iOS app which allow user to create crayon sgraffito.
                                         </p>
                                     </div>
                                 </div>
