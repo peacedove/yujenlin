@@ -1,0 +1,142 @@
+---
+layout: default
+css:
+ - path: resume.css
+---
+<div class="resume-table sixteen columns">
+    <div class="resume-content alpha">
+        <div class="row zero-bottom-margin">
+            <div class="nine columns alpha no-margin">
+                <p class="resume-title">{{ page.person.name }}</p>
+            </div>
+            <div class="four columns omega no-margin">
+                <div class="row">
+                    <div class="resume-download-btn">
+                        <a href="{{ site.baseurl }}/assets/files/{{ page.pdf_link }}" target="_blank">Download PDF</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <a class="mailto" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </div>
+                <div class="row">
+                    <p class="resume-item-des">{{ page.person.phone }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row zero-bottom-margin">
+    <div class="resume-table sixteen columns">
+        <div class="resume-content">
+            <div class="row zero-bottom-margin">
+                <div class="two columns no-margin alpha">
+                    <p class="resume-content-title">Education</p>
+                </div>
+                <div class="offset-by-one ten columns  no-margin omega">
+                {% for school in page.education %}
+                    <div class="row">
+                        <div class="one resume-item">
+                            <p class="resume-item-name">{{ school.name }}</p>
+                            <p class="resume-item-des">{{ school.role }}</p>
+                            <p class="resume-item-des">{{ school.time }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row zero-bottom-margin">
+    <div class="resume-table sixteen columns">
+        <div class="resume-content">
+            <div class="row zero-bottom-margin">
+                <div class="two columns alpha no-margin">
+                    <p class="resume-content-title">Experience</p>
+                </div>
+                <div class="offset-by-one ten columns omega no-margin">
+                    {% for job in page.jobs %}
+                    <div class="row">
+                        <div class="one resume-item omega">
+                            <p class="resume-item-name">{{ job.company }}</p>
+                            <p class="resume-item-des resume-job-title">{{ job.role }}</p>
+                            <p class="resume-item-des">{{ job.time }}</p>
+                            <br />
+                            {% for jobdetail in job.details %}
+                            <div class="row">
+                                <div class="half column resume-bullet">
+                                    <p>•</p>
+                                </div>
+                                <div class="ninehalf columns omega nomargin resume-bullet-content">
+                                    <p class="resume-item-des border-bottom">
+                                        {{ jobdetail }}
+                                    </p>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row zero-bottom-margin">
+    <div class="resume-table sixteen columns">
+        <div class="resume-content">
+            <div class="row zero-bottom-margin">
+                <div class="two columns alpha no-margin">
+                    <p class="resume-content-title">Projects</p>
+                </div>
+                <div class="offset-by-one ten columns omega no-margin">
+                    {% for project in page.projects%}
+                    <div class="row">
+                        <div class="one resume-item">
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}/{{ project.url }}"><span = class="link-span"></span></a>
+                            <div class="resume-item-detail">
+                                <p class="resume-item-name">{{ project.name }}</p>
+                                <p class="resume-item-des resume-job-title">{{ project.role }}</p>
+                                <p class="resume-item-des">{{ project.time }}</p>
+                                <br />
+                                {% for detail in project.details %}
+                                <div class="row">
+                                    <div class="half column resume-bullet">
+                                        <p>•</p>
+                                    </div>
+                                    <div class="ninehalf columns omega no-margin resume-bullet-content">
+                                        <p class="resume-item-des border-bottom">
+                                            {{ detail }}
+                                        </p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% for skillset in page.skillsets %}
+<div class="row zero-bottom-margin">
+    <div class="resume-table sixteen columns">
+        <div class="resume-content">
+            <div class="row zero-bottom-margin">
+                <div class="two columns no-margin alpha">
+                    <p class="resume-content-title">{{ skillset.set }}</p>
+                </div>
+                <div class="offset-by-one nine columns  no-margin omega">
+                    {% for skill in skillset.skills %}
+                    <div class="three columns small-item no-margin">
+                        <p>{{ skill }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
