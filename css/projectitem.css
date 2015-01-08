@@ -88,6 +88,12 @@ iframe, object {
 	height:100%;
 }
 
+iframe.in-des, object.in-des {
+    position: inherit;
+    top: atuo;
+    margin-top: 0.5em;
+}
+
 p.doc-link {
 	margin-bottom: 0.5em;
 }

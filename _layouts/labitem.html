@@ -5,8 +5,9 @@ css:
 ---
 
 <div class="btn">
-    <a class="backBtn" href="{{ site.baseurl }}/projects/"> ◀ project list</a>
+    <a class="backBtn" href="{{ site.baseurl }}/lab/"> ◀ lab list</a>
 </div>
+{% if page.simple != "simple" %}
 <div class="tile width_two height_two alpha">
     <div class="description">
         <p class="projectTitle">{{ page.title }}</p>
@@ -17,19 +18,37 @@ css:
         {{ content }}
     </div>
 </div>
+{% else %}
+<div class="tile width_four alpha omega">
+    <div class="description">
+        <p class="projectTitle">{{ page.title }}</p>
+        {{ content }}
+    </div>
+</div>
+{% endif %}
 {% for content in page.contents %}
     {% if content.type == "img" %}
-    <div class="tile {{ content.class }} image" style="background-image: url('{{ site.baseurl }}/assets/img/projects/{{ page.img_folder }}/{{ content.path }} ');"></div>
+    <div class="tile {{ content.class }} image" style="background-image: url('{{ site.baseurl }}/assets/img/lab/{{ page.img_folder }}/{{ content.path }} ');"></div>
     {% elsif content.type == "video" %}
     <div class="tile width_four height_auto alpha omega">
         <img class="ratio" src="{{ site.baseurl }}/assets/img/projects/16x9.gif" />
         <iframe src="{{ content.path }}" frameborder="0" allowfullscreen></iframe>
     </div>
-    {% else %}
+    {% elsif content.type == "object" %}
     <div class="tile width_four height_auto alpha omega">
         <img class="ratio" src="{{ site.baseurl }}/assets/img/projects/16x9.gif" />
         <object type="application/x-shockwave-flash" data="{{ content.path }}">
             <param name="flash" value="{{ content.path }}"></object>
+    </div>
+    {% elsif content.type == "swf" %}
+    <div class="tile width_four height_auto alpha omega">
+        <img class="ratio" src="{{ site.baseurl }}/assets/img/projects/16x9.gif" />
+        <object>
+            <param name="flash" value="{{ site.baseurl }}/assets/swf/{{ content.path }}" />
+            <!--[if !IE]>-->
+            <embed src="{{ site.baseurl }}/assets/swf/{{ content.path }}" width="{{ content.width }}" height="{{ content.height }}">
+            </embed>
+        </object>
     </div>
     {% endif %}
 {% endfor %}
