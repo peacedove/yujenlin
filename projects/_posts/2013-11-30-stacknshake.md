@@ -27,3 +27,5 @@ contents:
    class: width_two height_two omega 
    path: 1.jpg
 ---
+<p class="detail">
+Design an innovative way to enrich the traditional brick block playing. The goal of the game is to build a high an sturdy block tower. The user can attack other through the platform by sending an earthquake to other's base.</p>

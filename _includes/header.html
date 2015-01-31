@@ -11,6 +11,7 @@
                     <ul class="navlist">
                         {% assign sorted_pages = site.pages | sort: 'index'%}
                         {% for navpage in sorted_pages %}
+                            {% if navpage.title != nil && navpage.title != "" %}
                             <li
                                 {% if page.title == navpage.title %}
                                     class="current-menu-item"
@@ -21,6 +22,7 @@
                                 {% endif %}
                                 ><a href="{{ navpage.url | prepend: site.baseurl }}">{{ navpage.title }}</a>
                             </li>
+                            {% endif %}
                         {% endfor %}
                         </li>
                     </ul>

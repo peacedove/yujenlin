@@ -26,14 +26,21 @@ jobs:
     - Implement the prototype into real products, handling the algorithm and programming part.
     - Design and conduct the usability test.
 projects:
+ - name: Olegoru
+   role: Doctoral Student at UMSI
+   time: Ann Arbor, Fall 2014
+   url:
+   details:
+   - A soundscape composition tool to enhance children’s imaginative storytelling with tangible objects
+   - Bluetooth LE near field localization
+   - Present in TEI’15 Work in Progress Session 
  - name: Whisper of the Hear•t
    role: MSI at UMSI
    time: Ann Arbor, Winter 2014
    url: whisper_of_the_heart 
    details:
     - Tracking users body movement in 3D space by using Kinect and quadraphonic speakers.
-    - Designed an interactive system using audio feedback.
-    - Designed body gestures in both ego- and allocentric space.
+    - Designed an interactive system which creates an immersive soundscape and tangible environment for visual-impaired people to explore a traditional 2D painting.
  - name: Stack'n'Shake
    role: MSI at UMSI
    time: Ann Arbor, Fall 2013
@@ -88,6 +95,5 @@ skillsets:
     - Adobe Illustrator
     - Adobe Photoshop
     - Apple Garageband
-    - VIM
 ---
 
