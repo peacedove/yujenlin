@@ -1,0 +1,43 @@
+#wrap {
+	background-color: #250000;
+}
+
+.post-item {
+    margin-bottom: 1em;
+    background-color: #422;
+    padding: 1em;
+}
+
+.post-item h2 {
+    margin-bottom: 0;
+}
+
+hr {
+    margin-bottom: 0;
+    border-color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.excerpt {
+    color: #ccc;
+    margin-top: 1em;
+}
+
+
+.post-date {
+    color: #999;
+}
+
+.read-more {
+    margin-left: 0.2em;
+}
+a.read-more {
+    color: #59C;
+}
