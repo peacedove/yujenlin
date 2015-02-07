@@ -8,11 +8,13 @@
 .controls>ul>li {
 	display: inline-block;
 	font-size: 14px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .controls>ul>li.filter {
 	cursor: pointer;
-	background-color: #bbb;
 	padding: 5px 10px;
 	margin: 0 5px 10px;
 	text-transform: uppercase;
@@ -20,8 +22,8 @@
 }
 
 .controls>ul>li.active {
-	background-color: #ba6;
-	color: #fff;
+	background-color: #eee;
+	color: #333;
 } 
 
 .controls>ul>li:hover {
@@ -30,8 +32,8 @@
 }
 
 .controls>ul>li.active:hover {
-	background-color: #873;
-	color: #fff;
+	background-color: #ecc;
+	color: #333;
 }
 
 .link-span {

@@ -18,8 +18,9 @@ p.projectTitle {
 	display: inline-block;
 	line-height: 1.2;
 	padding: 5px;
-	background-color:#EBA;
 	color: #250000;
+    border: 1px solid;
+    border-radius: 5px;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -34,7 +35,8 @@ p.projectTitle {
 }
 
 .backBtn:hover {
-	background-color:#E55;
+	background-color:#EEE;
+    color: #333;
 	
 }
 
