@@ -8,7 +8,7 @@ css:
     <a class="backBtn" href="{{ site.baseurl }}/lab/"> ◀ lab list</a>
 </div>
 {% if page.simple != "simple" %}
-<div class="tile width_two height_two alpha">
+<div class="tile width_two height_two description alpha">
     <div class="description">
         <p class="projectTitle">{{ page.title }}</p>
         {% for sub in page.subs %}
@@ -19,7 +19,7 @@ css:
     </div>
 </div>
 {% else %}
-<div class="tile width_four alpha omega">
+<div class="tile width_four description alpha omega">
     <div class="description">
         <p class="projectTitle">{{ page.title }}</p>
         {{ content }}
