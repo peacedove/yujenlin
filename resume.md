@@ -30,7 +30,7 @@ projects:
  - name: Olegoru
    role: Doctoral Student at UMSI
    time: Ann Arbor, Fall 2014
-   url:
+   url: olegoru
    details:
    - A soundscape composition tool to enhance children’s imaginative storytelling with tangible objects
    - Bluetooth LE near field localization
