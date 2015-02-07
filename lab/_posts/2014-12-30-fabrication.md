@@ -3,7 +3,7 @@ layout: labitem
 title: Fabrication 
 categories: lab/wood lab/metal lab/fabrication
 description: Wood & Metal 
-cover_photo: /assets/img/lab/fabrication/bridge8.jpg
+cover_photo: /assets/img/lab/fabrication/gymbo6.jpg
 simple: simple
 img_folder: fabrication 
 contents:
