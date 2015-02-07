@@ -373,6 +373,10 @@ a.doc-link:visited {
         height: auto;
         min-height: 100%;
     }
+
+    .btn {
+        margin-bottom: 4px;
+    }
 }
 
 /* #Mobile (Portrait)
@@ -425,6 +429,10 @@ a.doc-link:visited {
         height: auto;
         min-height: 100%;
     }
+    
+    .btn {
+        margin-bottom: 4px;
+    }
 }
 
 @media only screen and (max-width: 359px) {
@@ -472,6 +480,10 @@ a.doc-link:visited {
     .container .tile.description {
         height: auto;
         min-height: 100%;
+    }
+
+    .btn {
+        margin-bottom: 4px;
     }
 
 	.detail {
