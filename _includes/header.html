@@ -3,7 +3,7 @@
         <div class="row">
             <div class="five columns">
                 <div class="logo">
-                    <div class="navbar-brand">Yu-Jen Lin</div>
+                    <div class="navbar-brand"><a href="{{ site.baseurl }}\">Yu-Jen Lin</a></div>
                 </div>
             </div>
             <div class="eleven column clearfix">
@@ -12,6 +12,7 @@
                         {% assign sorted_pages = site.pages | sort: 'index'%}
                         {% for navpage in sorted_pages %}
                             {% if navpage.title != nil && navpage.title != "" %}
+                            {% if navpage.nav == true %}
                             <li
                                 {% if page.title == navpage.title %}
                                     class="current-menu-item"
@@ -22,6 +23,7 @@
                                 {% endif %}
                                 ><a href="{{ navpage.url | prepend: site.baseurl }}">{{ navpage.title }}</a>
                             </li>
+                            {% endif %}
                             {% endif %}
                         {% endfor %}
                         <li>

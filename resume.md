@@ -1,6 +1,7 @@
 ---
 layout: resume
 title: Resume
+nav: true
 index: 2
 person:
   name: Yu-Jen Lin
