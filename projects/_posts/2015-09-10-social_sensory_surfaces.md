@@ -1,7 +1,7 @@
 ---
 layout: projectitem
 title: Social Sensory Surfaces 
-categories: project/tangible project/programming/kinect project
+categories: project/tangible project/programming project/kinect
 description: 2015 | Developed new tactile interfaces to confront critical challenges of learning and social engagement for children with ASD
 cover_photo: /assets/img/projects/social_sensory_surfaces/cover.jpg
 img_folder: social_sensory_surfaces
