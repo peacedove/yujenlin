@@ -124,6 +124,25 @@ a.doc-link:visited {
 }
 
 
+a.ext-link {
+	cursor: pointer;
+}
+
+a.ext-link:link {
+	
+}
+
+a.ext-link:visited {
+	
+}
+
+a.ext-link:hover {
+	color: #88C;
+}
+
+a.ext-link:visited {
+	
+}
 
 /*
 	Skeleton for photo gallery

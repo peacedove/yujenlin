@@ -5,6 +5,10 @@
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}" type="image/gif" sizes="16x16">
+  <link rel="icon" href="{{ "/assets/img/favicon-57x57.png" | prepend: site.baseurl }}" type="image/png" sizes="57x57">
+  <link rel="icon" href="{{ "/assets/img/favicon-72x72.png" | prepend: site.baseurl }}" type="image/png" sizes="72x72">
+  <link rel="icon" href="{{ "/assets/img/favicon-114x114.png" | prepend: site.baseurl }}" type="image/png" sizes="114x114">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   {% if page.css %}

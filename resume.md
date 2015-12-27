@@ -6,7 +6,7 @@ index: 2
 person:
   name: Yu-Jen Lin
   phone: (734)834-7540
-pdf_link: #
+pdf_link: yujenlin_resume.pdf
 education:
  - name: University of Michigan, School of Information
    role: PhD Student, Tangible Interaction and Physical Computing
@@ -18,15 +18,28 @@ education:
    role: B.S. in Electrical Engineering
    time: Taipei, Taiwan, 2005-2009
 jobs:
+ - company: Tanvas
+   role: Software Engineer, Interaction Designer
+   time: Chicago, IL, May-Aug 2015
+   details:
+   - Designed Android haptic applications’ which demo the surface haptic technology in conferences through the use of Unity3D, Node.js and Native Android SDK
+   - Design the preliminary SDK framework for Android developers to communicate with the Hardware
  - company: Techart Group
    role: Software Engineer
    time: Taipei, Taiwan, 2012-2013
    details:
-    - Design the application’s interaction flow, creating mockups and prototypes to communicate design ideas with stakeholders and co-workers.
-    - Design the server-to-end communication protocol and the application architecture.
-    - Implement the prototype into real products, handling the algorithm and programming part.
-    - Design and conduct the usability test.
+    - Design the application’s interaction flow, creating mockups and prototypes to communicate design ideas with stakeholders and co-workers
+    - Design the server-to-end communication protocol and the application architecture
+    - Implement the prototype into real products, handling the algorithm and programming part
+    - Design and conduct the usability test
 projects:
+ - name: Social Sensory Surface
+   role: Doctoral Student at UMSI
+   time: Ann Arbor, Fall 2015
+   url: social_sensory_surfaces
+   details:
+   - Developep tactile interfaces designed to confront critical challenges of learning and social engagement for children with Autism Spectrum Disorder
+   - Use Kinect and conductive textile to implement the touch sensitive surface in different tactile interfaces
  - name: Olegoru
    role: Doctoral Student at UMSI
    time: Ann Arbor, Fall 2014
@@ -90,11 +103,18 @@ skillsets:
     - HTML 5
     - JavaScript
     - OpenFrameworks
-    - Unity3D
+    - Node.js
  - set: Software
    skills:
     - Adobe Illustrator
     - Adobe Photoshop
     - Apple Garageband
+    - Unity3D
+    - Matlab/Octave
+ - set: Selected Courses
+   skills:
+    - Machine Learning
+    - Computer Vision
+    - "Fab: Wood and Metal"
 ---
 
