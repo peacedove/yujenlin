@@ -16,11 +16,23 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ css.path }}">
     {% endfor %}
   {% endif %}
+  {% if page.css %}
+    {% for css in page.css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ css.path }}">
+    {% endfor %}
+  {% endif %}
+
   {% if layout.js %}
     {% for js in layout.js %}
     <script type="text/javascript" src="{{ site.baseurl }}/js/{{ js.path }}"></script>
     {% endfor %}
   {% endif %}
+  {% if page.js %}
+    {% for js in page.js %}
+    <script type="text/javascript" src="{{ site.baseurl }}/js/{{ js.path }}"></script>
+    {% endfor %}
+  {% endif %}
+
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
