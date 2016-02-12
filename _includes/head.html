@@ -11,13 +11,13 @@
   <link rel="icon" href="{{ "/assets/img/favicon-114x114.png" | prepend: site.baseurl }}" type="image/png" sizes="114x114">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  {% if page.css %}
-    {% for css in page.css %}
+  {% if layout.css %}
+    {% for css in layout.css %}
     <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ css.path }}">
     {% endfor %}
   {% endif %}
-  {% if page.js %}
-    {% for js in page.js %}
+  {% if layout.js %}
+    {% for js in layout.js %}
     <script type="text/javascript" src="{{ site.baseurl }}/js/{{ js.path }}"></script>
     {% endfor %}
   {% endif %}
