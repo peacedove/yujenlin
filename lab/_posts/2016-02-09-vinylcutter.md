@@ -72,4 +72,30 @@ Illustrator's Image Trace is a convenient tool to convert a rasterized image to 
   <div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/nerv7.jpg')"></div>
 </div>
 
+<p>Feb 18, 2016:</p>
+<h2 class="title">Dual-Color Testing - Second Try</h2>
+<p>This time, I try to use the carrier sheet to make the transfer process easier. The idea is put the register mark outside a rectangular area of the material. When transferring the first part for the vinyl sticker to the transfer sheet, I can put the carrier sheet back and leave only the register mark outside. Thus, I can match the register mark without messing up the sticker with other things. The transparent sheet also makes this process easier, since you can clear see the position of the register markers even when the sheet is few inches away from the vinyl cutting sheet. The design of this sticker if a famous Fuzz Pedal called Big Muff Pi by Electronic-Harmonix.</p>
 
+<div class="container">   
+  <div class="tile width_one height_one image alpha" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/big-muff-pi.png')"> </div>
+  <div class="tile width_two height_one image" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi1.jpg')"></div>
+  <div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi2.jpg')"></div>
+  <div class="tile width_one height_two image alpha" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi_transfer.jpg')"></div>
+  <div class="tile width_two height_two image" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi3.jpg')"></div>
+  <div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi4.jpg')">
+  </div><div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/bigmuffpi5.jpg')"></div>
+</div>
+
+<p>Feb 15, 2016:</p>
+<h2 class="title">Vinyl Cutter + Origami</h2>
+<p>Vinyl Cutter is very suitable for creating a complex origami. The merit of origami is folding a piss of paper without the use of cuts and glue. The vinyl cutter can score the paper to make the folding process easier. The crease pattern that I was using is from <a href="http://www.tsg.ne.jp/TT/index.html">Tomohiro Tachi</a>, and the final shape of this pattern should become a 2D Gaussian surface. It is extremely important to use the test function on the vinyl cutter to test the settings. Most of the time, I start from a setting with less force and gradually increase the power until I got an appropriate test cut on the test material. Another problem of this kind of design is that the pattern has a lot of intersections. Those interactions will make the cutter cut through the same point multiple times, and might cut that point all the way through. One way to avoid this situation is to make some gap from the lines near to the intersections to avoid cutting through the same point multiple times. For the pattern I was folding, it would be easier to start folding from those major horizontal and vertical lines, and leave those interactions later. To make the result looks prettier, I fold the side with the scoring inside. The folding needs to be very careful. It is very easy to tear the paper apart when folding a crease where its neighbor crease needs to be folded in an opposite direction. I have made three of this model with different material. The first is a printing paper, the second is a premium printing paper with thickness around 0.125mm, the third one is a paper with 0.450 mm thickness. The first two are too thing, so a lot of intersections breaks when folding the crease crossing it too many times. The third one is easier to fold, and I can fold the intersection parts by squeezing it without tearing the paper. The third one is also a larger piece, which the original size before cutting is 19" by 27". To cut a piece this long, it is better to also set up the middle anchor on the vinyl cutter. Since our vinyl cutter is next to a wall, it is actually very important to make sure the sheet does not touch the wall anytime, otherwise, the position of the paper will shift away.</p>
+
+<div class="container">   
+  <div class="tile width_one height_one image alpha" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_pattern.png')"> </div>
+  <div class="tile width_two height_one image" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/cut_testing.jpg')"></div>
+  <div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_fold_process.jpg')"></div>
+  <div class="tile width_one height_two image alpha" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_test1_2.jpg')"></div>
+  <div class="tile width_two height_two image" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_test2_3.jpg')"></div>
+  <div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_test2_1.jpg')">
+  </div><div class="tile width_one height_one image omega" style="background-image: url('/yujenlin/assets/img/lab/artdes217/vinylcut/origami_test2_2.jpg')"></div>
+</div>
