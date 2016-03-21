@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conductive Fabric Testing"
-categories: lab/fabrication
+categories: lab/fabrication lab/arduino
 cover_photo: /assets/img/lab/conductivefabrics/cover.png
 simple: simple
 feature-img: "/assets/img/lab/artdes217/finalproposal/prototype1.JPG"
