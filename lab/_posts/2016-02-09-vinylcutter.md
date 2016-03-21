@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fab: Vinyl Cutter"
-categories: lab/artdes217
+categories: lab/artdes217 lab/fabrication
 cover_photo: /assets/img/lab/artdes217/vinylcut/taiwan.jpg
 simple: simple
 feature-img: "/assets/img/lab/artdes217/vinylcut/nerv.jpg"
