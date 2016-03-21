@@ -111,10 +111,14 @@ skillsets:
     - Apple Garageband
     - Unity3D
     - Matlab/Octave
+    - Rhino
+    - SolidWorks
  - set: Selected Courses
    skills:
     - Machine Learning
     - Computer Vision
     - "Fab: Wood and Metal"
+    - "Fab: Bits and Atoms"
+    - Game Design
 ---
 
