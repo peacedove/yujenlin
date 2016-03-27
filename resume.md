@@ -32,6 +32,34 @@ jobs:
     - Design the server-to-end communication protocol and the application architecture
     - Implement the prototype into real products, handling the algorithm and programming part
     - Design and conduct the usability test
+awards: 
+ - name: "expoSItion 2016 1st place : Academic / Research"
+   affiliation: University of Michigan, School of Information
+   time: Ann Arbor, Winter 2016
+   exturl: https://www.si.umich.edu/news/students-showcase-projects-win-prizes-expo-2016
+   details:
+   - DoIIIT Together
+   - The DoIIITogether initiative embraces the interdisciplinarity of UMSI, providing a creative space where researchers with diverse backgrounds and interests can collaborate and create.
+ - name: "2014 MUSE Award: Mobile Applications (Silver)"
+   affiliation: American Alliance of Museums
+   time: Taiwan, 2014
+   exturl: http://www.aam-us.org/about-us/grants-awards-and-competitions/muse-awards/past-award-winners/2014-muse-awards
+   details: 
+   - The Dream Time Machine 
+   - Jurors said this project is "Immersive, participatory and surprising. Visitors are taken on a magical adventure with the help of a mobile device and digital exhibits. It takes the immersive experience up several notches, creates an engaging and fully interactive experience for users, moves the device to an integral part of the experience." And "Their innovative use of location-based technologies and augmented reality ensures that this mobile experience bleeds into the physical environment."
+ - name: "2014 MUSE Award: Games and Augmented Reality (Silver)"
+   affiliation: American Alliance of Museums
+   time: Taiwan, 2014
+   exturl: http://www.aam-us.org/about-us/grants-awards-and-competitions/muse-awards/past-award-winners/2014-muse-awards
+   details: 
+   - The Square of Aspiration 
+   - It is just like a dream comes true, romantic but tangible.  In the Square of Aspiration, visitors explored and recalled their childhood through the diversity dream windows. Through a smart phone and augmented reality (AR) technology visitors can become the characters in tiny miniature landscapes, taking pictures as digital souvenirs for the journey.
+ - name: expoSItion 2012 1st place
+   affiliation: University of Michigan, School of Information
+   time: Ann Arbor, Winter 2012
+   url: sgraffi
+   details:
+   - Our team's app "Sgraffi" which allows users to revisit their childhood by creating Sgraffitos of their own, wons UMSI's expoSItion 2012 1st place.
 projects:
  - name: Social Sensory Surface
    role: Doctoral Student at UMSI

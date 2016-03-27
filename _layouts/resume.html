@@ -87,6 +87,49 @@ css:
         <div class="resume-content">
             <div class="row zero-bottom-margin">
                 <div class="two columns alpha no-margin">
+                    <p class="resume-content-title">Awards</p>
+                </div>
+                <div class="offset-by-one ten columns omega no-margin">
+                    {% for award in page.awards%}
+                    <div class="row">
+                        <div class="one resume-item">
+                            {% if award.url %}
+                            <a class="resume-link clearfix" href="{{ site.baseurl }}/{{ award.url }}"><span class="link-span"></span></a>
+                            {% elsif award.exturl %}
+                            <a class="resume-link clearfix" href="{{ award.exturl }}"><span class="link-span"></span></a>
+
+                            {% endif %}
+                            <div class="resume-item-detail">
+                                <p class="resume-item-name">{{ award.name }}</p>
+                                <p class="resume-item-des resume-job-title">{{ award.affiliation }}</p>
+                                <p class="resume-item-des">{{ award.time }}</p>
+                                <br />
+                                {% for detail in award.details %}
+                                <div class="row">
+                                    <!-- <div class="half column resume&#45;bullet"> -->
+                                    <!--     <p>•</p> -->
+                                    <!-- </div> -->
+                                    <div class="ninehalf columns omega no-margin resume-bullet-content">
+                                        <p class="resume-item-des border-bottom">
+                                            {{ detail }}
+                                        </p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row zero-bottom-margin">
+    <div class="resume-table sixteen columns">
+        <div class="resume-content">
+            <div class="row zero-bottom-margin">
+                <div class="two columns alpha no-margin">
                     <p class="resume-content-title">Projects</p>
                 </div>
                 <div class="offset-by-one ten columns omega no-margin">
