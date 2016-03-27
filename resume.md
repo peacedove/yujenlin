@@ -66,8 +66,8 @@ projects:
    time: Ann Arbor, Fall 2015
    url: social_sensory_surfaces
    details:
-   - Developep tactile interfaces designed to confront critical challenges of learning and social engagement for children with Autism Spectrum Disorder
-   - Use Kinect and conductive textile to implement the touch sensitive surface in different tactile interfaces
+   - Developed tactile interfaces designed to confront critical challenges of learning and social engagement for children with Autism Spectrum Disorder
+   - Used Kinect and conductive textile to implement the touch sensitive surface in different tactile interfaces
  - name: Olegoru
    role: Doctoral Student at UMSI
    time: Ann Arbor, Fall 2014
@@ -88,7 +88,7 @@ projects:
    time: Ann Arbor, Fall 2013
    url: stacknshake
    details:
-    - Used Arduino to create an interactive games with DC motors and several sensors.
+    - Used Arduino to create an interactive game with DC motors and several sensors.
     - Designed and created a multiplayer competition of stacking blocks in whole new experience.
     - Designed and created the physical component - an earthquake emulator for wood blocks.
  - name: A Dream Journey In Taipei
@@ -96,7 +96,7 @@ projects:
    time: Taipei, Taiwan, Jan - Aug 2013
    url: a_dream_journey_in_taipei
    details:
-    - First exhibition highly integrated with more than 500 playable android smartphones (Open from Aug 2013 to Sep 2014).
+    - The first exhibition highly integrated with more than 500 playable android smartphones (Open from Aug 2013 to Sep 2014).
     - Used Unity3D game engine as well as home-made android native plugins.
     - Built a wireless interior localization system using wireless signal only.
     - Used AR, face replacement, realtime server-to-end communication and synchronization, and NFC technique.
@@ -106,7 +106,7 @@ projects:
    url: windows8_reimagined
    details:
     - 'Exhibited at “7th Digital Art Festival Taipei 2012: Artificial Nature”'
-    - Used an All-In-One Win8 with touch screen as a terminal to interact with the virtual world in the exhibition room.
+    - Used an All-In-One Win8 with a touchscreen as a terminal to interact with the virtual world in the exhibition room.
     - Created a playable and fun environment to demonstrate the new Win8 UI and features to visitors.
 skillsets:
  - set: UX Methods
