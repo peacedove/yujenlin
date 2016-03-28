@@ -40,6 +40,17 @@ feature-img: "/assets/img/lab/artdes217/finalproposal/prototype1.JPG"
   <iframe src="https://www.youtube.com/embed/hQyydVfg_4A" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<h2>Sketches</h2>
+<div>
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing1.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing2.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing3.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing4.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing5.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing6.png" />
+  <img src="{{site.baseurl}}/assets/img/lab/artdes217/finalproposal/drawing7.png" />
+</div>
+
 <h2>Other Inspiration</h2>
 <h3>Sensation Propagation</h3>
 <p><a href="https://vimeo.com/76479685">CONSTELLACTION</a> from <a href="https://vimeo.com/pangenerator">◥ panGenerator</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
